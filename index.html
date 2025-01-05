@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snoopyriley's Website</title>
     <style>
+        @font-face {
+        font-family: "Planet Kosmos";
+        src: url("./planet-kosmos.ttf");
+        }
+
         body {
             display: flex;
             flex-direction: column;
@@ -12,10 +17,25 @@
             align-items: center;
             background-color: black;
             color: white;
+            height: 100vh;
+            overflow: hidden;
+            line-height: 0.8;
+        }
+
+        .site-heading {
+            font-family: "Planet Kosmos", serif;
+        }
+
+        .hyperlink {
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
 <body>
-    
+    <h1 class="site-heading">snoopyriley</h1>
+    <a href="hyperlink">projects</a>
 </body>
 </html>
