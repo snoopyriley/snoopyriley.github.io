@@ -55,18 +55,54 @@
             text-decoration: underline;
             font-weight: 600;
         }
+
+        .project {
+            background-color: #333;
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 80%;
+            max-width: 600px;
+            line-height: 1.5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: "IBM Plex Mono", monospace;
+        }
+
+        .project h2 {
+            margin-top: 0;
+            color: #ffcc00;
+        }
+
+        .project p {
+            color: #ccc;
+        }
+
+        .project a {
+            color: #e46eff;
+            text-decoration: none;
+            font-family: inherit;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1 class="site-heading">snoopyriley</h1>
-    <h4>
-        <a class="hyperlink" href="#">about</a>
-        &nbsp;&nbsp;•&nbsp;&nbsp;
-        <a class="hyperlink" href="projects.html">projects</a> 
-        &nbsp;&nbsp;•&nbsp;&nbsp;
-        <a class="hyperlink" href="#">socials</a>
-    </h4>
-    <p class="version-update"><strong>version 1.2: </strong>added cloudspace in the <a href="projects.html" class="update-redirect">projects</a> tab</p>
+    <h1 class="site-heading">projects</h1>
+    <div class="project">
+        <p><strong>cloudspace:</strong> 
+            this is my upcoming coding environment
+            which will be available on the web and as a desktop application. 
+            it will be a place where you can code, compile, 
+            and run your code all in one place. 
+            it will be available for free and will be open source. 
+            it will be available for windows, mac, and linux. 
+            it will be available in mid 2025.
+        </p>
+        <a href="https://github.com/snoopyriley/cloudspace"><i class="fa-brands fa-github"></i>&nbsp;View it on GitHub</a>
+    </div>
     <h5 class="watermark">© 2025 <a class="github" href="https://github.com/snoopyriley">snoopyriley</a></h5>
 </body>
 </html>
